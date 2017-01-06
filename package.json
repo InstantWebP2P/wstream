@@ -1,7 +1,7 @@
 {
   "name": "wstream",
-  "version": "0.1.0",
-  "description": "Simple wrap ws/WebSocket as NodeJS stram",
+  "version": "0.1.1",
+  "description": "Simple wrap ws/WebSocket as NodeJS stream",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/InstantWebP2P/wstream"
   },
-  "author": "tom zhou",
+  "author": "tom zhou,iwebpp@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/InstantWebP2P/wstream/issues"

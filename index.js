@@ -81,8 +81,11 @@ util.inherits(Stream, Dupplex);
 Stream.prototype._read = function(size) {
 	var self = this;
 
-	if (self.ws && self.ws.resume)
+        try {
+            if (self.ws && self.ws.resume && (self.ws.readyState == WebSocket.OPEN))
 		self.ws.resume();
+            } catch (e) {
+        }
 }
 
 Stream.prototype._write = function(chunk, encoding, callback) {
