@@ -19,6 +19,6 @@
   "dependencies": {
     "readable-stream": "1.0.33",
     "debug": "2.2.0",
-    "ws": "1.1.0"
+    "ws": "7.2.1"
   }
 }
